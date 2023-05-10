@@ -62,10 +62,19 @@ body {
 
         .profileSquareBox {
             border: 1px solid black;
-            background-color: #fff;
-            height: 100px;
-            width: 100px;
+            outline: solid 5px white;
+            outline-offset: -6px;
+            background-color: #d8d7d7;
+            height: 90px;
+            width: 90px;
             margin: 10px;
+            position: relative;
+
+            img {
+                max-width: 100%;
+                position: absolute;
+                bottom: 5px;
+            }
         }
 
     }
