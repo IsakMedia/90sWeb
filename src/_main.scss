@@ -48,32 +48,48 @@ body {
                 width: 1rem;
             }
 
+            .xBox:active {
 
-            .revxBox {
-                margin: 1px;
                 border: 2px inset #ffffff;
-                display: flex;
-                justify-content: center;
-                background-color: white;
-                height: 1rem;
-                width: 1rem;
+            }
+        }
+
+        .info {
+            display: flex;
+
+            .tableBox {
+                box-sizing: border-box;
+                font-size: 0.7rem;
+                padding: 0;
+                line-height: 1rem;
+                border-spacing: 0;
+
+                tr {
+                    max-height: 0.1rem;
+                }
             }
         }
 
         .profileSquareBox {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
             border: 1px solid black;
             outline: solid 5px white;
             outline-offset: -6px;
-            background-color: #d8d7d7;
             height: 90px;
             width: 90px;
             margin: 10px;
             position: relative;
+            overflow: hidden;
+
+
 
             img {
-                max-width: 100%;
+                max-width: 140%;
                 position: absolute;
-                bottom: 5px;
+                z-index: 1;
+
             }
         }
 
