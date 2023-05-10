@@ -1,0 +1,72 @@
+body {
+    background: url('../public/images/neighborhood.jpg');
+    background-size: cover;
+}
+
+.box {
+    display: grid;
+    width: 100%;
+    place-content: center;
+    height: 100vh;
+
+
+    .content {
+        background-color: #D8D8D8;
+        height: 200px;
+        width: 400px;
+        filter: drop-shadow(19px 18px 3px #000);
+
+        ul {
+            margin: 0;
+            padding: 2px 10px;
+            list-style-type: none;
+            display: flex;
+            gap: 10px;
+
+            li {
+                padding: 0;
+                margin: 0;
+            }
+        }
+
+
+
+        .boxHeader {
+            display: flex;
+            justify-content: space-between;
+            margin: 3px;
+            background: rgb(111, 111, 111);
+            background: linear-gradient(94deg, rgba(111, 111, 111, 1) 20%, rgba(138, 137, 137, 0) 100%);
+
+            .xBox {
+                margin: 1px;
+                border: 2px outset #fff;
+                display: flex;
+                justify-content: center;
+                background-color: white;
+                height: 1rem;
+                width: 1rem;
+            }
+
+
+            .revxBox {
+                margin: 1px;
+                border: 2px inset #ffffff;
+                display: flex;
+                justify-content: center;
+                background-color: white;
+                height: 1rem;
+                width: 1rem;
+            }
+        }
+
+        .profileSquareBox {
+            border: 1px solid black;
+            background-color: #fff;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+
+    }
+}
