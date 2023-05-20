@@ -1,9 +1,7 @@
-body {
+.box {
     background: url('../public/images/neighborhood.jpg');
     background-size: cover;
-}
 
-.box {
     display: grid;
     width: 100%;
     place-content: center;

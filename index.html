@@ -11,19 +11,50 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
   </head>
   <body>
 
-      <div class="box">
+    <div id="aboutEl" class="about-body hide">
+      <div class="about-box">
+        <h1>
+          About
+        </h1>
+        <div class="about-text">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+          Reiciendis excepturi harum ut numquam quasi 
+          repudiandae ullam facilis veniam sed repellendus.
+          
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          Voluptatum corrupti assumenda, eveniet inventore exercitationem saepe amet 
+          molestiae ex velit
+          placeat nihil soluta impedit vero unde voluptatibus alias cum ut voluptas.
+        </p>
+
+          <ul>
+            <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, 
+              rerum tempora! Ea reiciendis atque sunt facilis voluptas deleniti, </li>
+            <li> nemo pariatur neque saepe non velit similique doloribus at esse laudantium 
+              cupiditate debitis aut recusandae ullam nobis distinctio! Est maxime ducimus </li>
+            <li> eligendi asperiores unde eveniet in! Odit, sequi deserunt! Ex, eius fugiat?</li>
+            
+          </ul>  
+      </div>
+
+      </div>
+
+    </div>
+
+      <div id="mainBox" class="box">
       
       <div class="content">
         <div class="boxHeader">
           <h1>Welcome</h1>
-          <div class="xBox">
+          <div id="xBoxBtn" class="xBox">
             <i class="fa-sharp fa-solid fa-xmark"></i>
           </div>
         </div>
 
         <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a id="aboutLink" href="#">About</a></li>
+          <li><a id="contactLink" href="#">Contact</a></li>
         </ul>
 
     <hr class="ruler"/>
@@ -50,7 +81,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
             </div>
 
             <div class="btn-box">
-            <button class="action-button">Contact</button>
+            <button id="contact-btn" class="action-button">Contact</button>
             </div>
           
           </div>
@@ -58,7 +89,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
       </div>
       </div>
       </div>
-    <div id="app"></div>
+    
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
