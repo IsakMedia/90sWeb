@@ -17,7 +17,6 @@
 
 
 
-
     h1,
     h3,
     p,
@@ -48,20 +47,33 @@
         padding: 0.3rem;
         margin: 12vh 50% 0 50%;
     }
+
+    .p-tap {
+        text-align: center;
+        font-size: 0.6rem;
+        margin: 2rem 0 2rem;
+    }
 }
 
 
 .about-text {
     margin: 0 5rem;
 
-    ul {
-        text-align: center;
-        list-style-type: none;
-        line-height: 1.5rem;
 
+    ol {
+        text-align: center;
+        line-height: 1.5rem;
+        list-style-position: inside;
+
+        text-indent: -1em;
 
         li:first-child {
             margin-bottom: 1rem;
+        }
+
+        li::marker {
+
+            font-size: 1.3rem;
         }
 
 
